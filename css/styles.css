@@ -68,7 +68,7 @@ align-items: center;
   display: flex;
   text-align: center;
   gap: 40px;
-  padding: 24px 0;
+  
 }
 
 .webstudio {
@@ -100,6 +100,7 @@ header .container {
   letter-spacing: 0.32px;
   color: #2E2F42;
   font-weight: 500;
+  padding: 24px 0;
 }
 
 .navigat:hover,
@@ -111,7 +112,8 @@ header .container {
 .address-info {
   color: #434455;
   font-style: normal;
-padding-top: 24px;
+
+padding: 24px 0;
 }
 
 .ul-adress {
@@ -130,9 +132,8 @@ padding-top: 24px;
 
 .hero {
   background-color: #2E2F42;
-  padding-bottom: 188px;
-  padding-top: 188px;
-  padding: 120px 0;
+  padding: 188px 0;
+  
 }
 
 /* changing h1 */
@@ -177,15 +178,25 @@ min-width: 169px;
 }
 
 
+
 /* Main section 2 - benefits */
 .section_two {
   background: var(--CLOUD, #F4F4FD);
-
+padding: 120px 0;
 }
 
 .visually-hidden {
-  display: none;
-  margin-bottom: 8px;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .list_benefits {
@@ -202,6 +213,7 @@ min-width: 169px;
   line-height: 24px;
   letter-spacing: 0.4px;
   color: #2E2F42;
+  margin-bottom: 8px;
 }
 
 .p-benefits {
@@ -212,6 +224,11 @@ min-width: 169px;
   letter-spacing: 0.32px;
   color: #434455;
 }
+.benefits_li {
+  width: calc((100% - 72px) / 4);
+}
+
+
 
 /* Main section 3 - our team */
 .section_two {
@@ -237,7 +254,7 @@ min-width: 169px;
   
 }
 .member {
-  width: calc((100% - 3 * 34px) / 4);
+  width: calc((100% - 72px) / 4);
   background-color: #FFFFFF;
   border-radius: 0px 0px 4px 4px;
 }
