@@ -182,7 +182,7 @@ min-width: 169px;
 /* Main section 2 - benefits */
 .section_two {
   background: var(--CLOUD, #F4F4FD);
-padding: 120px 0px;
+padding: 120px 0 120px 0;
 }
 
 .visually-hidden {
