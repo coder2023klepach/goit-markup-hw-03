@@ -180,8 +180,7 @@ min-width: 169px;
 
 
 /* Main section 2 - benefits */
-.section_three {
-  background: var(--CLOUD, #F4F4FD);
+.benefits {
   padding: 120px 0;
 }
 
@@ -231,6 +230,10 @@ min-width: 169px;
 
 
 /* Main section 3 - our team */
+.section_three {
+  background: var(--CLOUD, #F4F4FD);
+  padding: 120px 0;
+}
 
 .h-two-team {
   color: #2E2F42;
@@ -246,9 +249,8 @@ min-width: 169px;
   gap: 24px;
   
 }
-.container1 {
+.container_one {
   padding: 32px 0;
-  
 }
 .member {
   width: calc((100% - 72px) / 4);
@@ -279,7 +281,7 @@ min-width: 169px;
 /* Main section 4 - Our Portfolio */
 .portfolio_section {
   padding-top: 120px;
-  padding-bottom: 120px;
+    padding-bottom: 120px;
 }
 .portfolio-h-two {
   color: #2e2f42;
