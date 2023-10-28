@@ -180,9 +180,9 @@ min-width: 169px;
 
 
 /* Main section 2 - benefits */
-.section_two {
+.section_three {
   background: var(--CLOUD, #F4F4FD);
-padding: 120px 0 120px 0;
+  padding: 120px 0;
 }
 
 .visually-hidden {
@@ -231,10 +231,7 @@ padding: 120px 0 120px 0;
 
 
 /* Main section 3 - our team */
-.section_two {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
+
 .h-two-team {
   color: #2E2F42;
   font-size: 36px;
